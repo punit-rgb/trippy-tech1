@@ -1,0 +1,42 @@
+body{
+font-family:Arial;
+text-align:center;
+background:#f4f6f8;
+}
+
+.product{
+background:white;
+width:320px;
+margin:auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+input{
+display:block;
+margin:10px auto;
+padding:12px;
+width:240px;
+border-radius:6px;
+border:1px solid #ddd;
+}
+
+button{
+background:#0066ff;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.counter{
+margin:15px;
+font-weight:bold;
+}
+
+.form{
+display:block;
+margin-top:15px;
+}
