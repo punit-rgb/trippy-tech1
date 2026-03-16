@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pen Store - IIT Madras</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+
+<h1>College Pen Store - IIT Madras</h1>
+
+<div class="counter">
+Total Pens Sold: <span id="sold">0</span> / 40
+</div>
+
+<div class="product">
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" width="150">
+<h2>Premium Pen</h2>
+<p>Price ₹10</p>
+<button onclick="showForm()">Order Now</button>
+</div>
+
+<div id="form" class="form">
+<input id="name" placeholder="Your Name">
+<input id="phone" placeholder="Phone Number">
+<input id="ref" placeholder="Referred By (optional)">
+<p>Pay via UPI QR below and then click "I Paid"</p>
+<img src="UPI_QR.png" width="200">
+<button onclick="confirmOrder()">I Paid</button>
+</div>
+
+<div id="result"></div>
+
+<script src="firebase.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
