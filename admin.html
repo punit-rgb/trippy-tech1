@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard - IIT Madras Pen Store</title>
+</head>
+<body>
+<h1>Admin Dashboard</h1>
+<button onclick="downloadExcel()">Download Orders</button>
+<table border="1" id="table">
+<tr>
+<th>Order ID</th>
+<th>Name</th>
+<th>Phone</th>
+<th>Referral</th>
+<th>Status</th>
+</tr>
+</table>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="firebase.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
